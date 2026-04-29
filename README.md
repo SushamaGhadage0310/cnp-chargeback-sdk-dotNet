@@ -6,12 +6,12 @@ Vantiv eCommerce .NET Chargeback SDK
 
 About Vantiv eCommerce
 ------------
-[Vantiv eCommerce](https://developer.vantiv.com/community/ecommerce) powers the payment processing engines for leading companies that sell directly to consumers through  internet retail, direct response marketing (TV, radio and telephone), and online services. Vantiv eCommerce is the leading authority in card-not-present (CNP) commerce, transaction processing and merchant services.
+[Vantiv eCommerce](https://docs.worldpay.com/apis/cnpapi) powers the payment processing engines for leading companies that sell directly to consumers through  internet retail, direct response marketing (TV, radio and telephone), and online services. Vantiv eCommerce is the leading authority in card-not-present (CNP) commerce, transaction processing and merchant services.
 
 
 About this Chargeback .NET SDK
 --------------
-The Vantiv eCommerce Chargeback .NET SDK is a C# implementation of the [Vantiv eCommerce](https://developer.vantiv.com/docs/DOC-1196) Chargeback API. This Chargeback SDK was created to make it as easy as possible to process your chargebacks and upload documents supporting your cases with Vantiv eCommerce. This Chargeback SDK utilizes the HTTPS protocol to securely connect to Vantiv eCommerce. Using the Chargeback SDK requires coordination with the Vantiv eCommerce team in order to be provided with credentials for accessing our systems.
+The Vantiv eCommerce Chargeback .NET SDK is a C# implementation of the [Vantiv eCommerce](https://docs.worldpay.com/apis/cnpapi) Chargeback API. This Chargeback SDK was created to make it as easy as possible to process your chargebacks and upload documents supporting your cases with Vantiv eCommerce. This Chargeback SDK utilizes the HTTPS protocol to securely connect to Vantiv eCommerce. Using the Chargeback SDK requires coordination with the Vantiv eCommerce team in order to be provided with credentials for accessing our systems.
 
 Each .NET Chargeback SDK release supports all of the functionality present in the associated Vantiv eCommerce Chargeback API version (e.g., Chargeback SDK v2.1 supports Vantiv eCommerce Chargeback API v2.1). Please see the online copy of our Chargeback XSD for Vantiv eCommerce XML to get more details on what the Vantiv eCommerce Chargeback API supports.
 
@@ -19,9 +19,9 @@ This Chargeback SDK is implemented to support the .NET plaform, including C#, VB
 
 See LICENSE file for details on using this software.
 
-Source Code available from : https://github.com/Vantiv/cnp-chargeback-sdk-dotNet
+Source Code available from : https://github.com/Worldpay/cnp-chargeback-sdk-dotNet
 
-Please contact [Vantiv eCommerce](http://developer.vantiv.com/community/ecommerce) to receive valid merchant credentials in order to run tests successfully or if you require assistance in any way.  We are reachable at sdksupport@Vantiv.com
+Please contact [Vantiv eCommerce](https://docs.worldpay.com/apis/cnpapi) to receive valid merchant credentials in order to run tests successfully or if you require assistance in any way.  We are reachable at sdksupport@worldpay.com
 
 Setup
 -----
@@ -49,7 +49,7 @@ Setup
         </chargebackSettings>
     </vantivEcommerce>
 ```
-Also, you can use a different Configuration constructor to pass a file path to a simple configuration file that contains [key=value] settings; an example of this configuration file can be found at (https://github.com/Vantiv/cnp-chargeback-sdk-dotNet/blob/2.x/sampleConfig.txt). 
+Also, you can use a different Configuration constructor to pass a file path to a simple configuration file that contains [key=value] settings; an example of this configuration file can be found at (https://github.com/Worldpay/cnp-chargeback-sdk-dotNet/blob/2.x/sampleConfig.txt). 
 ```
     username = myUsername
     password = myPassword
@@ -134,6 +134,6 @@ namespace Merchant
     Case Id:12887910011
 ~~~
 
-More examples can be found in [Functional and Unit Tests](https://github.com/Vantiv/cnp-chargeback-sdk-dotNet/tree/2.x/ChargebackSdkForNetTest)
+More examples can be found in [Functional and Unit Tests](https://github.com/Worldpay/cnp-chargeback-sdk-dotNet/tree/2.x/ChargebackSdkForNetTest)
 
-Please contact Vantiv eCommerce with any further questions. You can reach us at sdksupport@Vantiv.com.
+Please contact Vantiv eCommerce with any further questions. You can reach us at sdksupport@worldpay.com.
